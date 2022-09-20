@@ -25,7 +25,7 @@ if(isset($_POST['edit-btn']))
 <form action="update.php" method="post">
     <input type="hidden" name="id" value="<?php echo $_POST['id']?>">
         <input type="text" class="input"  name="todo" palceholder="Enter todo item" id="" value="<?php echo $_POST['todo']?>"required>
-        <button type="submit" class="btn btn-primary add" name="edit-btn">EDIT</button>
+        <button type="submit" class="btn btn-success add" name="edit-btn">UPDATE</button>
 
     </form>
 </body>
